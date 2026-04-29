@@ -1,12 +1,9 @@
+streamlit
 langchain
 langchain-community
-langchain-core
+langchain-huggingface
+langchain-groq
 chromadb
 pypdf
-unstructured
-numpy
-pandas
-fastapi
-uvicorn
-tiktoken
-streamlit
+python-dotenv
+sentence-transformers

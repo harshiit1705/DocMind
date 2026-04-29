@@ -1,3 +1,5 @@
+# main.py
+
 from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
@@ -18,7 +20,7 @@ retriever = vector_store.as_retriever(
     search_kwargs={
         "k":4,
         "fetch_k" : 10,
-        "lambda_mult": 0.5
+        "lambda_mult": 0.9
     }
 )
 
